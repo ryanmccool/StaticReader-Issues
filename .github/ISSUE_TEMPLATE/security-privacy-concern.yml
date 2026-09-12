@@ -1,0 +1,31 @@
+name: Security or privacy concern
+description: Report a security or privacy concern privately
+title: "[Security/Privacy]: "
+labels:
+  - security
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Do not post sensitive details in a public GitHub issue.** Please email privacy@staticevolution.com instead. Do not include private books, credentials, tokens, personal data, or other sensitive information here. For general support, visit https://staticevolution.com/support/.
+  - type: textarea
+    id: summary
+    attributes:
+      label: High-level summary only
+      description: Provide a brief, non-sensitive description. Do not include exploit details, private content, account information, or personal data.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Potential impact
+      description: Describe the possible impact at a high level, without sensitive details.
+    validations:
+      required: false
+  - type: checkboxes
+    id: private-contact
+    attributes:
+      label: Private disclosure
+      options:
+        - label: I understand that sensitive disclosures should be sent to privacy@staticevolution.com and should not be posted publicly.
+          required: true
