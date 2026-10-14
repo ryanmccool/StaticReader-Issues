@@ -7,7 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        **Do not post sensitive details in a public GitHub issue.** Please email privacy@staticevolution.com instead. Do not include private books, credentials, tokens, personal data, or other sensitive information here. For general support, visit https://staticevolution.com/support/.
+        **Do not post sensitive details in a public GitHub issue.** Please email **ryan (dot) mccool (at) gmail (dot) com** instead. Replace `(dot)` with `.` and `(at)` with `@` when composing your email. Do not include private books, credentials, tokens, personal data, or other sensitive information here. For general support, visit https://staticevolution.com/support/.
   - type: textarea
     id: summary
     attributes:
@@ -27,5 +27,5 @@ body:
     attributes:
       label: Private disclosure
       options:
-        - label: I understand that sensitive disclosures should be sent to privacy@staticevolution.com and should not be posted publicly.
+        - label: I understand that sensitive disclosures should be sent to ryan (dot) mccool (at) gmail (dot) com and should not be posted publicly.
           required: true
